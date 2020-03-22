@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.lambdacraft.codnerf.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "server": [
+    "CodEntityMixin",
+    "SalmonEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
